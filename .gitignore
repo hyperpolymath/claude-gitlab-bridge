@@ -1,122 +1,79 @@
-# Claude GitLab Bridge - Git Ignore
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# RSR-compliant .gitignore
 
-# =============================================================================
-# Environment & Secrets
-# =============================================================================
-
-.env
-.env.local
-.env.*.local
-*.key
-*.pem
-secrets.json
-credentials.json
-
-# =============================================================================
-# Dependencies
-# =============================================================================
-
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.pnpm-store/
-
-# =============================================================================
-# Build Output
-# =============================================================================
-
-dist/
-build/
-out/
-*.tsbuildinfo
-
-# =============================================================================
-# Testing & Coverage
-# =============================================================================
-
-coverage/
-.nyc_output/
-*.lcov
-.vitest/
-
-# =============================================================================
-# IDE & Editor
-# =============================================================================
-
-.vscode/
-.idea/
+# OS & Editor
+.DS_Store
+Thumbs.db
 *.swp
 *.swo
 *~
-.DS_Store
-Thumbs.db
+.idea/
+.vscode/
 
-# =============================================================================
+# Build
+/target/
+/_build/
+/build/
+/dist/
+/out/
+
+# Dependencies
+/node_modules/
+/vendor/
+/deps/
+/.elixir_ls/
+
+# Rust
+# Cargo.lock  # Keep for binaries
+
+# Elixir
+/cover/
+/doc/
+*.ez
+erl_crash.dump
+
+# Julia
+*.jl.cov
+*.jl.mem
+/Manifest.toml
+
+# ReScript
+/lib/bs/
+/.bsb.lock
+
+# Python (SaltStack only)
+__pycache__/
+*.py[cod]
+.venv/
+
+# Ada/SPARK
+*.ali
+/obj/
+/bin/
+
+# Haskell
+/.stack-work/
+/dist-newstyle/
+
+# Chapel
+*.chpl.tmp.*
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Test/Coverage
+/coverage/
+htmlcov/
+
 # Logs
-# =============================================================================
-
-logs/
 *.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
+/logs/
 
-# =============================================================================
-# Cache & Temporary Files
-# =============================================================================
-
-.cache/
-.temp/
-.tmp/
+# Temp
+/tmp/
 *.tmp
 *.bak
-.turbo/
-
-# =============================================================================
-# OS Generated
-# =============================================================================
-
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-desktop.ini
-
-# =============================================================================
-# Package Managers
-# =============================================================================
-
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
-
-# =============================================================================
-# Development
-# =============================================================================
-
-.env.development
-.env.test
-.env.production
-
-# =============================================================================
-# Documentation (generated)
-# =============================================================================
-
-docs/api/generated/
-docs/.vitepress/cache/
-docs/.vitepress/dist/
-
-# =============================================================================
-# Misc
-# =============================================================================
-
-*.pid
-*.seed
-*.pid.lock
-.eslintcache
-.stylelintcache
