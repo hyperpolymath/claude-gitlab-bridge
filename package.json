@@ -34,7 +34,7 @@
     "code-review"
   ],
   "author": "hyperpolymath <hello@hyperpolymath.dev>",
-  "license": "MIT",
+  "license": "(MIT OR AGPL-3.0-or-later)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hyperpolymath/claude-gitlab-bridge.git"
