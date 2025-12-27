@@ -63,3 +63,15 @@ export {
   extractToken,
   type AuthMiddlewareConfig,
 } from "./middleware";
+
+// Rate limiting
+export {
+  RateLimiter,
+  createRateLimitMiddleware,
+  createSharedRateLimiter,
+  createRateLimitFromPreset,
+  requireRateLimit,
+  RATE_LIMIT_PRESETS,
+  DEFAULT_RATE_LIMIT_CONFIG,
+  type RateLimitConfig,
+} from "./rate-limiter";
