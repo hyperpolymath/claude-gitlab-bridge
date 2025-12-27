@@ -45,3 +45,13 @@ export {
   INVALID_WEBHOOKS,
   createWebhookPayload,
 } from "./webhooks";
+
+// Rate limit fixtures
+export {
+  RATE_LIMIT_CONFIGS,
+  TEST_IPS,
+  createMockRequest,
+  createMockResponse,
+  wait,
+  simulateRequests,
+} from "./rate-limit";
