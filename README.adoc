@@ -1,8 +1,11 @@
 = Claude GitLab Bridge
 
+image:https://img.shields.io/badge/License-MPL_2.0-blue.svg[MPL-2.0,link="https://opensource.org/licenses/MPL-2.0"]
+image:https://img.shields.io/badge/Philosophy-Palimpsest-purple.svg[Palimpsest,link="https://github.com/hyperpolymath/palimpsest-licence"]
+
+
 [![RSR Compliance](https://img.shields.io/badge/RSR-GOLD-gold?style=flat-square)](RSR.md)
 [![TPCF](https://img.shields.io/badge/TPCF-Perimeter%203-blue?style=flat-square)](GOVERNANCE.adoc)
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE.txt)
 [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-2.1-purple?style=flat-square)](CODE_OF_CONDUCT.adoc)
 
 > Bridge between Claude AI and GitLab for enhanced developer productivity
