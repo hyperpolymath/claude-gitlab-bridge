@@ -316,10 +316,10 @@ We welcome contributions! Please see:
 
 == License
 
-This project is licensed under the [MIT License](LICENSE.txt).
+This project is licensed under the [Palimpsest-MPL-1.0 License](LICENSE.txt).
 
 ```
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: PMPL-1.0
 ```
 
 == Acknowledgments
